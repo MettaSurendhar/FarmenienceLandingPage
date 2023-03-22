@@ -254,7 +254,16 @@
   .btn,
   .btn:link,
   .btn:visited {
-    padding: 2.4rem 1.6rem;
+    padding: 2rem 1.6rem;
+    
+  }
+
+  .btn--full{
+    margin-bottom: 20px;
+  }
+
+  .start-btn{
+    margin-bottom: 100px;
   }
 
   .section-hero {
