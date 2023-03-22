@@ -16,6 +16,9 @@
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+  .gallery-item{
+    height: 280px;
+  }
 }
 
 /**************************/
@@ -27,6 +30,8 @@
     /* 9px / 16px  */
     font-size: 56.25%;
   }
+
+  
 
   .grid {
     column-gap: 4.8rem;
@@ -80,7 +85,8 @@
   }
 
   .hero-img {
-    width: 60%;
+    width: 90%;
+    /* height: 80%; */
   }
 
   .delivered-meals {
@@ -89,7 +95,7 @@
   }
 
   .logos img {
-    height: 2.4rem;
+    height: 4.5rem;
   }
 
   .step-number {
@@ -106,6 +112,10 @@
 
   .gallery {
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  .gallery-item{
+    height: 150px;
   }
 
   .cta {
@@ -188,6 +198,10 @@
 /**************************/
 
 @media (max-width: 44em) {
+
+  .gallery-item{
+    height: 100px;
+  }
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
@@ -252,11 +266,11 @@
   }
 
   .hero-img {
-    width: 80%;
+    width: 100%;
   }
 
   .logos img {
-    height: 1.2rem;
+    height: 3.0rem;
   }
 
   .step-img-box:nth-child(2) {
@@ -278,6 +292,9 @@
   .gallery {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
+  }
+  .gallery-item{
+    height: 130px;
   }
 
   .cta {
